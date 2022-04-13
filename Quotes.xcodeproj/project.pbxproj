@@ -28,6 +28,7 @@
 		FD9E118728062B1A00262F3A /* Copyright.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E117D28062B1A00262F3A /* Copyright.swift */; };
 		FD9E118928062F0600262F3A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E118828062F0600262F3A /* DataService.swift */; };
 		FD9E118A28062F0600262F3A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E118828062F0600262F3A /* DataService.swift */; };
+		FD9E118E2807242400262F3A /* DataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E118D2807242400262F3A /* DataServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		FD9E117C28062B1A00262F3A /* Contents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
 		FD9E117D28062B1A00262F3A /* Copyright.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Copyright.swift; sourceTree = "<group>"; };
 		FD9E118828062F0600262F3A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FD9E118D2807242400262F3A /* DataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		FD9E11552805491600262F3A /* QuotesTests */ = {
 			isa = PBXGroup;
 			children = (
+				FD9E118C280723E200262F3A /* Service */,
 				FD9E11562805491600262F3A /* QuotesTests.swift */,
 			);
 			path = QuotesTests;
@@ -155,7 +158,7 @@
 		FD9E117028055B3100262F3A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FD9E11452805491200262F3A /* Main.storyboard */,
+				FD9E118B2807206000262F3A /* Storyboards */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,6 +208,22 @@
 				FD9E117B28062B1A00262F3A /* Success.swift */,
 			);
 			path = DBModel;
+			sourceTree = "<group>";
+		};
+		FD9E118B2807206000262F3A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FD9E11452805491200262F3A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FD9E118C280723E200262F3A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FD9E118D2807242400262F3A /* DataServiceTests.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +380,7 @@
 				FD9E118328062B1A00262F3A /* Success.swift in Sources */,
 				FD9E117F28062B1A00262F3A /* Quotes.swift in Sources */,
 				FD9E118A28062F0600262F3A /* DataService.swift in Sources */,
+				FD9E118E2807242400262F3A /* DataServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
